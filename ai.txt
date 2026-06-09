@@ -1,0 +1,14 @@
+I used Claude AI to develop a plan and guide me through the code writing process. When I
+encountered an error, I would ask Claude why this error is popping up, and what I can do to fix it.
+I especially struggled when creating my src/firebase/config.js file - whenever I made an error, it
+was extremely difficult for me to go back to where I was. Claude was able to scan my code and propose solutions 
+with explanations on why the change is relevant. Some examples of questions I asked Claude include:
+
+- I am starting on a final project for my web technologies class. I made a tentative plan/overview 
+  for my idea (attached). Please write me a detailed plan on how I can execute this project.
+- the second component is "clickable" is it ok if I delete the component folder as a whole then create a new file again? 
+  This file is empty. can I do this in the terminal? Whenever i go to delete something it is incredibly slow
+  This is resulting in an error and here is what it is displaying:
+- It seems like nothing is popping up. Why is this happening?
+- It is just showing a blank screen
+- the issue is that this code was already there but when running dir src/pages command, it is showing that they are empty

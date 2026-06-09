@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDIfvgfQ2zzIWMefopDu7WhVrD4KhFb1s8",
-  authDomain: "tifa-app-da69e.firebaseapp.com",
-  projectId: "tifa-app-da69e",
-  storageBucket: "tifa-app-da69e.firebasestorage.app",
-  messagingSenderId: "990454725751",
-  appId: "1:990454725751:web:59a14fa923df6405cdda72"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
 
 const app = initializeApp(firebaseConfig);
